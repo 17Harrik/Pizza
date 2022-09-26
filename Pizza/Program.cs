@@ -21,6 +21,8 @@ namespace Pizza
         private static string ChooseFrom(List<string> toppings)
         {
          
+
+            // repeat until  user input is valid
             bool valid = false;
             int chosenPosition = -1;
 
